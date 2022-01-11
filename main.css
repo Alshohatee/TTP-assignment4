@@ -22,7 +22,7 @@ body {
     height: 100px;
 }
 
-.login {
+.div-form {
     margin: auto;
     text-align: center;
 }
@@ -44,4 +44,9 @@ label {
 
 #status-login {
     color: red
+}
+
+#radius {
+    display: inline-block;
+    width: 100px;
 }
