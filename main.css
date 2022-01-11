@@ -21,3 +21,12 @@ body {
     width: 60%;
     height: 100px;
 }
+
+.login {
+    margin: auto;
+    text-align: center;
+}
+
+form>* {
+    margin-top: 5px;
+}

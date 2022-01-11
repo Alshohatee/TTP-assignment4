@@ -26,3 +26,15 @@ let bigBtn = document.getElementById("big-btn")
 function mouseOver() {
     alert("Hey, I told you not to hover over me!")
 }
+
+
+// 3. Create an HTML page with a form. It should include inputs for a username, 
+// email, and password. Also a submit button.
+
+
+function loginSubmit(event) {
+    event.preventDefault()
+    console.log("hello");
+
+
+}
