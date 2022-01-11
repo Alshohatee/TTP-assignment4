@@ -31,10 +31,29 @@ function mouseOver() {
 // 3. Create an HTML page with a form. It should include inputs for a username, 
 // email, and password. Also a submit button.
 
+// 4. In a Javascript file, write a program which checks the following things:
+//     checks that the password is 12345678
+// if the password is incorrect, send an alert message
+// Your page should also include an < h1 > tag.If the information in the form is correct,
+//     have Javascript change the text in the < h1 > .HTML page
 
 function loginSubmit(event) {
     event.preventDefault()
-    console.log("hello");
+    let username = document.getElementById("username").value;
+    let email = document.getElementById("email").value;
+    let password = document.getElementById("password").value;
+    let statusLogin = document.getElementById("status-login")
+
+
+    //  checks that the password is 12345678
+    if (password === "12345678") {
+        statusLogin.textContent = "Password is correct"
+        statusLogin.style.color = "green"
+    } else {
+        statusLogin.textContent = "Password is correct"
+        alert("Wrong Password!")
+    }
+
 
 
 }
