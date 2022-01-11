@@ -13,3 +13,11 @@ body {
     display: inline-block;
     font-size: 16px;
 }
+
+.big-btn {
+    background-color: #3c569e;
+    display: block;
+    margin: auto;
+    width: 60%;
+    height: 100px;
+}
